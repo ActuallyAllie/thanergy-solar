@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import { Link } from './Link';
 import solarFlare from '../public/solar-flare.png';
 
 export function Header() {
@@ -14,12 +15,14 @@ export function Header() {
                     />
                 </div>
                 <div className="flex-1">
-                    <h1 className="text-4xl mt-2 text-indigo-500">Thanergy Solar</h1>
+                    <h1 className="text-4xl mt-2 text-indigo-500">
+                        Thanergy Solar
+                    </h1>
                 </div>
             </div>
             <div className="flex flex-row justify-around">
-                <a className="w-32">Customers</a>
-                <a className="w-32">Solar Farms</a>
+                <Link href="/">Customers</Link>
+                <Link href="/solar-farms">Solar Farms</Link>
             </div>
         </div>
     );

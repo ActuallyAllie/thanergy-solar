@@ -1,16 +1,64 @@
 import Head from 'next/head';
-import Image from 'next/image';
-import solarFlare from '../public/solar-flare.png';
-import { Header } from '../components/Header';
+import { useRouter } from 'next/router';
 import { customers } from './api/customers';
 import { Customer } from '../types/';
 import { Container } from '../components/Container';
+import { Table } from '../components/Table';
+import { useCallback, useMemo } from 'react';
+import { useTable, useSortBy } from 'react-table';
 
 interface Props {
     customers: Customer[];
 }
 
 export default function Home({ customers }: Props) {
+    const columns = useMemo(
+        () => [
+            {
+                Header: 'ID',
+                accessor: 'id',
+            },
+            {
+                Header: 'Name',
+                accessor: (row: Customer) =>
+                    `${row.first_name} ${row.last_name}`,
+                id: 'name',
+            },
+            {
+                Header: 'Email',
+                accessor: 'email',
+            },
+            {
+                Header: 'Active',
+                accessor: 'active',
+            },
+            {
+                Header: 'Account Manager',
+                accessor: 'account_manager_id',
+            },
+            {
+                Header: 'Reason for Joining',
+                accessor: 'reason_for_joining',
+            },
+            {
+                Header: 'Joined',
+                accessor: 'created_date',
+            },
+        ],
+        [],
+    );
+
+    const tableInstance = useTable({ columns, data: customers }, useSortBy);
+    const router = useRouter();
+
+    const onRowClick = useCallback((row: Customer) => {
+        console.log(row);
+        router.push({
+            pathname: '/customers/[id]',
+            query: { id: row.id }
+        })
+    }, [router]);
+
     return (
         <Container>
             <Head>
@@ -20,26 +68,7 @@ export default function Home({ customers }: Props) {
                     content="Customers using Dominicus powered electricity!"
                 />
             </Head>
-                <table className="table-auto w-full border-collapse">
-                    <thead>
-                        <tr>
-                            <th>ID</th>
-                            <th>Name</th>
-                            <th>Email</th>
-                            <th>Active</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                    {customers.map(customer => (
-                        <tr className="border" key={customer.id}>
-                            <td className="border">{customer.id}</td>
-                            <td className="border">{customer.first_name} {customer.last_name}</td>
-                            <td className="border">{customer.email}</td>
-                            <td className="border">{customer.active}</td>
-                        </tr>
-                    ))}
-                    </tbody>
-                </table>
+            <Table title="Customers" tableInstance={tableInstance} onRowClick={onRowClick} />
         </Container>
     );
 }
