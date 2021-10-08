@@ -113,7 +113,7 @@ export default function CustomerView({ accounts, customer }: Props) {
                 <Table title="Accounts" tableInstance={tableInstance} />
             ) : (
                 <Card title="Accounts">
-                    <p className="p-3">
+                    <p className="p-3 text-xl">
                         {customer.first_name} {customer.last_name} is not
                         associated with any accounts
                     </p>
