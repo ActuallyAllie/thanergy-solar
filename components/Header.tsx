@@ -1,6 +1,5 @@
 import Image from 'next/image';
 import { Link } from './Link';
-import solarFlare from '../public/solar-flare.png';
 
 export function Header() {
     return (
@@ -8,7 +7,7 @@ export function Header() {
             <div className="flex-0 flex flex-row">
                 <div className="flex-0 px-5">
                     <Image
-                        src={solarFlare}
+                        src="/solar-flare.png"
                         alt="Thanergy solar logo"
                         width="64"
                         height="64"
