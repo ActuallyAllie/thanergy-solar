@@ -54,7 +54,7 @@ export default function SolarFarms({ accounts, solarFarms }: Props) {
     return (
         <Container>
             <Head>
-                <title>Customers: Thanergy Solar</title>
+                <title>Solar Farms: Thanergy Solar</title>
                 <meta
                     name="description"
                     content="Solar Farms harvesting the power of Dominicus!"
