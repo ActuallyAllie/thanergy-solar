@@ -8,7 +8,7 @@ interface Props {
 export function Card({ title, children }: Props) {
     return (
         <div className="w-full px-5">
-            <div className="w-full text-indigo-600 rounded-xl bg-gradient-to-r from-blue-50 to-indigo-100 p-10">
+            <div className="w-full overflow-x-auto text-indigo-600 rounded-xl bg-gradient-to-r from-blue-50 to-indigo-100 p-3 md:p-10">
                 <Title>{title}</Title>
                 {children}
             </div>
