@@ -1,0 +1,1124 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Solar Farms Index renders solar farms unchanged 1`] = `
+<div
+  className="xl:container mx-auto flex flex-col justify-center items-center"
+>
+  <div
+    className="w-full h-auto flex-0 border-b border-solid border-gray-200 flex flex-col sm:flex-row items-center justify-between"
+  >
+    <div
+      className="flex flex-row"
+    >
+      <div
+        className="flex-0 px-5"
+      >
+        <div
+          style={
+            Object {
+              "boxSizing": "border-box",
+              "display": "inline-block",
+              "margin": 0,
+              "maxWidth": "100%",
+              "overflow": "hidden",
+              "position": "relative",
+            }
+          }
+        >
+          <div
+            style={
+              Object {
+                "boxSizing": "border-box",
+                "display": "block",
+                "maxWidth": "100%",
+              }
+            }
+          >
+            <img
+              alt=""
+              aria-hidden={true}
+              src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjQiIGhlaWdodD0iNjQiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmVyc2lvbj0iMS4xIi8+"
+              style={
+                Object {
+                  "border": "none",
+                  "display": "block",
+                  "margin": 0,
+                  "maxWidth": "100%",
+                  "padding": 0,
+                }
+              }
+            />
+          </div>
+          <img
+            alt="Thanergy solar logo"
+            data-nimg="intrinsic"
+            decoding="async"
+            src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+            style={
+              Object {
+                "border": "none",
+                "bottom": 0,
+                "boxSizing": "border-box",
+                "display": "block",
+                "height": 0,
+                "left": 0,
+                "margin": "auto",
+                "maxHeight": "100%",
+                "maxWidth": "100%",
+                "minHeight": "100%",
+                "minWidth": "100%",
+                "objectFit": undefined,
+                "objectPosition": undefined,
+                "padding": 0,
+                "position": "absolute",
+                "right": 0,
+                "top": 0,
+                "width": 0,
+              }
+            }
+          />
+          <noscript>
+            <img
+              alt="Thanergy solar logo"
+              data-nimg="intrinsic"
+              decoding="async"
+              loading="lazy"
+              src="/_next/image?url=%2Fsolar-flare.png&w=128&q=75"
+              srcSet="/_next/image?url=%2Fsolar-flare.png&w=64&q=75 1x, /_next/image?url=%2Fsolar-flare.png&w=128&q=75 2x"
+              style={
+                Object {
+                  "border": "none",
+                  "bottom": 0,
+                  "boxSizing": "border-box",
+                  "display": "block",
+                  "height": 0,
+                  "left": 0,
+                  "margin": "auto",
+                  "maxHeight": "100%",
+                  "maxWidth": "100%",
+                  "minHeight": "100%",
+                  "minWidth": "100%",
+                  "objectFit": undefined,
+                  "objectPosition": undefined,
+                  "padding": 0,
+                  "position": "absolute",
+                  "right": 0,
+                  "top": 0,
+                  "width": 0,
+                }
+              }
+            />
+          </noscript>
+        </div>
+      </div>
+      <div
+        className="flex-1"
+      >
+        <h1
+          className="text-2xl mt-3 text-4xl mt-2 text-indigo-500"
+        >
+          Thanergy Solar
+        </h1>
+      </div>
+    </div>
+    <div
+      className="h-16 mb-3 sm:mb-0 sm:h-auto text-xl sm:text-base flex flex-col sm:flex-row justify-between text-center"
+    >
+      <a
+        className="w-32 hover:text-blue-600 transition-all transform hover:scale-110 active:scale-100"
+        href="/"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+      >
+        Customers
+      </a>
+      <a
+        className="w-32 hover:text-blue-600 transition-all transform hover:scale-110 active:scale-100"
+        href="/solar-farms"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+      >
+        Solar Farms
+      </a>
+    </div>
+  </div>
+  <main
+    className="w-full py-5 flex flex-col flex-1 justify-center items-center"
+  >
+    <div
+      className="w-full px-5"
+    >
+      <div
+        className="w-full overflow-x-auto text-indigo-600 rounded-xl bg-gradient-to-r from-blue-50 to-indigo-100 p-3 md:p-10"
+      >
+        <h1
+          className="text-3xl ml-4 mb-5 text-indigo-800"
+        >
+          Solar Farms
+        </h1>
+        <div
+          className="w-full md:hidden"
+        >
+          <div
+            className="hover:bg-blue-200 hover:shadow-xl rounded p-5 my-2 active:shadow-none transition-all duration-100"
+            onClick={[Function]}
+            role="row"
+          >
+            <ul>
+              <li
+                className=""
+              >
+                <label
+                  className="font-bold mr-3"
+                >
+                  ID
+                  :
+                   
+                </label>
+                1
+              </li>
+              <li
+                className=""
+              >
+                <label
+                  className="font-bold mr-3"
+                >
+                  Name
+                  :
+                   
+                </label>
+                The Big Farm
+              </li>
+              <li
+                className=""
+              >
+                <label
+                  className="font-bold mr-3"
+                >
+                  Number of Accounts
+                  :
+                   
+                </label>
+                9
+              </li>
+              <li
+                className=""
+              >
+                <label
+                  className="font-bold mr-3"
+                >
+                  Total Capacity Filled
+                  :
+                   
+                </label>
+                5.1612
+              </li>
+            </ul>
+          </div>
+          <div
+            className="hover:bg-blue-200 hover:shadow-xl rounded p-5 my-2 active:shadow-none transition-all duration-100 bg-indigo-200"
+            onClick={[Function]}
+            role="row"
+          >
+            <ul>
+              <li
+                className=""
+              >
+                <label
+                  className="font-bold mr-3"
+                >
+                  ID
+                  :
+                   
+                </label>
+                2
+              </li>
+              <li
+                className=""
+              >
+                <label
+                  className="font-bold mr-3"
+                >
+                  Name
+                  :
+                   
+                </label>
+                Arcade Farm
+              </li>
+              <li
+                className=""
+              >
+                <label
+                  className="font-bold mr-3"
+                >
+                  Number of Accounts
+                  :
+                   
+                </label>
+                6
+              </li>
+              <li
+                className=""
+              >
+                <label
+                  className="font-bold mr-3"
+                >
+                  Total Capacity Filled
+                  :
+                   
+                </label>
+                3.2589
+              </li>
+            </ul>
+          </div>
+          <div
+            className="hover:bg-blue-200 hover:shadow-xl rounded p-5 my-2 active:shadow-none transition-all duration-100"
+            onClick={[Function]}
+            role="row"
+          >
+            <ul>
+              <li
+                className=""
+              >
+                <label
+                  className="font-bold mr-3"
+                >
+                  ID
+                  :
+                   
+                </label>
+                3
+              </li>
+              <li
+                className=""
+              >
+                <label
+                  className="font-bold mr-3"
+                >
+                  Name
+                  :
+                   
+                </label>
+                The Talking Farms
+              </li>
+              <li
+                className=""
+              >
+                <label
+                  className="font-bold mr-3"
+                >
+                  Number of Accounts
+                  :
+                   
+                </label>
+                8
+              </li>
+              <li
+                className=""
+              >
+                <label
+                  className="font-bold mr-3"
+                >
+                  Total Capacity Filled
+                  :
+                   
+                </label>
+                4.9628
+              </li>
+            </ul>
+          </div>
+          <div
+            className="hover:bg-blue-200 hover:shadow-xl rounded p-5 my-2 active:shadow-none transition-all duration-100 bg-indigo-200"
+            onClick={[Function]}
+            role="row"
+          >
+            <ul>
+              <li
+                className=""
+              >
+                <label
+                  className="font-bold mr-3"
+                >
+                  ID
+                  :
+                   
+                </label>
+                4
+              </li>
+              <li
+                className=""
+              >
+                <label
+                  className="font-bold mr-3"
+                >
+                  Name
+                  :
+                   
+                </label>
+                Total Eclipse of the Solar Farm
+              </li>
+              <li
+                className=""
+              >
+                <label
+                  className="font-bold mr-3"
+                >
+                  Number of Accounts
+                  :
+                   
+                </label>
+                9
+              </li>
+              <li
+                className=""
+              >
+                <label
+                  className="font-bold mr-3"
+                >
+                  Total Capacity Filled
+                  :
+                   
+                </label>
+                4.6806
+              </li>
+            </ul>
+          </div>
+          <div
+            className="hover:bg-blue-200 hover:shadow-xl rounded p-5 my-2 active:shadow-none transition-all duration-100"
+            onClick={[Function]}
+            role="row"
+          >
+            <ul>
+              <li
+                className=""
+              >
+                <label
+                  className="font-bold mr-3"
+                >
+                  ID
+                  :
+                   
+                </label>
+                5
+              </li>
+              <li
+                className=""
+              >
+                <label
+                  className="font-bold mr-3"
+                >
+                  Name
+                  :
+                   
+                </label>
+                Great Farms of Fire
+              </li>
+              <li
+                className=""
+              >
+                <label
+                  className="font-bold mr-3"
+                >
+                  Number of Accounts
+                  :
+                   
+                </label>
+                9
+              </li>
+              <li
+                className=""
+              >
+                <label
+                  className="font-bold mr-3"
+                >
+                  Total Capacity Filled
+                  :
+                   
+                </label>
+                4.5865
+              </li>
+            </ul>
+          </div>
+          <div
+            className="hover:bg-blue-200 hover:shadow-xl rounded p-5 my-2 active:shadow-none transition-all duration-100 bg-indigo-200"
+            onClick={[Function]}
+            role="row"
+          >
+            <ul>
+              <li
+                className=""
+              >
+                <label
+                  className="font-bold mr-3"
+                >
+                  ID
+                  :
+                   
+                </label>
+                6
+              </li>
+              <li
+                className=""
+              >
+                <label
+                  className="font-bold mr-3"
+                >
+                  Name
+                  :
+                   
+                </label>
+                The Farm and the Hound
+              </li>
+              <li
+                className=""
+              >
+                <label
+                  className="font-bold mr-3"
+                >
+                  Number of Accounts
+                  :
+                   
+                </label>
+                7
+              </li>
+              <li
+                className=""
+              >
+                <label
+                  className="font-bold mr-3"
+                >
+                  Total Capacity Filled
+                  :
+                   
+                </label>
+                4.736
+              </li>
+            </ul>
+          </div>
+          <div
+            className="hover:bg-blue-200 hover:shadow-xl rounded p-5 my-2 active:shadow-none transition-all duration-100"
+            onClick={[Function]}
+            role="row"
+          >
+            <ul>
+              <li
+                className=""
+              >
+                <label
+                  className="font-bold mr-3"
+                >
+                  ID
+                  :
+                   
+                </label>
+                7
+              </li>
+              <li
+                className=""
+              >
+                <label
+                  className="font-bold mr-3"
+                >
+                  Name
+                  :
+                   
+                </label>
+                Farm Inc.
+              </li>
+              <li
+                className=""
+              >
+                <label
+                  className="font-bold mr-3"
+                >
+                  Number of Accounts
+                  :
+                   
+                </label>
+                14
+              </li>
+              <li
+                className=""
+              >
+                <label
+                  className="font-bold mr-3"
+                >
+                  Total Capacity Filled
+                  :
+                   
+                </label>
+                7.69
+              </li>
+            </ul>
+          </div>
+          <div
+            className="hover:bg-blue-200 hover:shadow-xl rounded p-5 my-2 active:shadow-none transition-all duration-100 bg-indigo-200"
+            onClick={[Function]}
+            role="row"
+          >
+            <ul>
+              <li
+                className=""
+              >
+                <label
+                  className="font-bold mr-3"
+                >
+                  ID
+                  :
+                   
+                </label>
+                8
+              </li>
+              <li
+                className=""
+              >
+                <label
+                  className="font-bold mr-3"
+                >
+                  Name
+                  :
+                   
+                </label>
+                Bruce Farmstein & the E Street Farm
+              </li>
+              <li
+                className=""
+              >
+                <label
+                  className="font-bold mr-3"
+                >
+                  Number of Accounts
+                  :
+                   
+                </label>
+                9
+              </li>
+              <li
+                className=""
+              >
+                <label
+                  className="font-bold mr-3"
+                >
+                  Total Capacity Filled
+                  :
+                   
+                </label>
+                5.0933
+              </li>
+            </ul>
+          </div>
+          <div
+            className="hover:bg-blue-200 hover:shadow-xl rounded p-5 my-2 active:shadow-none transition-all duration-100"
+            onClick={[Function]}
+            role="row"
+          >
+            <ul>
+              <li
+                className=""
+              >
+                <label
+                  className="font-bold mr-3"
+                >
+                  ID
+                  :
+                   
+                </label>
+                9
+              </li>
+              <li
+                className=""
+              >
+                <label
+                  className="font-bold mr-3"
+                >
+                  Name
+                  :
+                   
+                </label>
+                Farmlórien
+              </li>
+              <li
+                className=""
+              >
+                <label
+                  className="font-bold mr-3"
+                >
+                  Number of Accounts
+                  :
+                   
+                </label>
+                7
+              </li>
+              <li
+                className=""
+              >
+                <label
+                  className="font-bold mr-3"
+                >
+                  Total Capacity Filled
+                  :
+                   
+                </label>
+                4.3104
+              </li>
+            </ul>
+          </div>
+          <div
+            className="hover:bg-blue-200 hover:shadow-xl rounded p-5 my-2 active:shadow-none transition-all duration-100 bg-indigo-200"
+            onClick={[Function]}
+            role="row"
+          >
+            <ul>
+              <li
+                className=""
+              >
+                <label
+                  className="font-bold mr-3"
+                >
+                  ID
+                  :
+                   
+                </label>
+                10
+              </li>
+              <li
+                className=""
+              >
+                <label
+                  className="font-bold mr-3"
+                >
+                  Name
+                  :
+                   
+                </label>
+                Another Solar Farm
+              </li>
+              <li
+                className=""
+              >
+                <label
+                  className="font-bold mr-3"
+                >
+                  Number of Accounts
+                  :
+                   
+                </label>
+                4
+              </li>
+              <li
+                className=""
+              >
+                <label
+                  className="font-bold mr-3"
+                >
+                  Total Capacity Filled
+                  :
+                   
+                </label>
+                3.326
+              </li>
+            </ul>
+          </div>
+        </div>
+        <table
+          className="w-full table-auto border-separate hidden md:table"
+          role="table"
+          style={
+            Object {
+              "borderSpacing": "0 0.5rem",
+            }
+          }
+        >
+          <thead>
+            <tr
+              role="row"
+            >
+              <th
+                className="px-4 py-2 text-indigo-600"
+                colSpan={1}
+                onClick={[Function]}
+                role="columnheader"
+                style={
+                  Object {
+                    "cursor": "pointer",
+                  }
+                }
+                title="Toggle SortBy"
+              >
+                ID
+                <span>
+                  
+                </span>
+              </th>
+              <th
+                className="px-4 py-2 text-indigo-600"
+                colSpan={1}
+                onClick={[Function]}
+                role="columnheader"
+                style={
+                  Object {
+                    "cursor": "pointer",
+                  }
+                }
+                title="Toggle SortBy"
+              >
+                Name
+                <span>
+                  
+                </span>
+              </th>
+              <th
+                className="px-4 py-2 text-indigo-600"
+                colSpan={1}
+                onClick={[Function]}
+                role="columnheader"
+                style={
+                  Object {
+                    "cursor": "pointer",
+                  }
+                }
+                title="Toggle SortBy"
+              >
+                Number of Accounts
+                <span>
+                  
+                </span>
+              </th>
+              <th
+                className="px-4 py-2 text-indigo-600"
+                colSpan={1}
+                onClick={[Function]}
+                role="columnheader"
+                style={
+                  Object {
+                    "cursor": "pointer",
+                  }
+                }
+                title="Toggle SortBy"
+              >
+                Total Capacity Filled
+                <span>
+                  
+                </span>
+              </th>
+            </tr>
+          </thead>
+          <tbody
+            role="rowgroup"
+          >
+            <tr
+              className="hover:bg-blue-200 hover:shadow-xl active:shadow-none transition-all duration-100"
+              onClick={[Function]}
+              role="row"
+            >
+              <td
+                className="m-2 py-2 px-4"
+                role="cell"
+              >
+                1
+              </td>
+              <td
+                className="m-2 py-2 px-4"
+                role="cell"
+              >
+                The Big Farm
+              </td>
+              <td
+                className="m-2 py-2 px-4"
+                role="cell"
+              >
+                9
+              </td>
+              <td
+                className="m-2 py-2 px-4"
+                role="cell"
+              >
+                5.1612
+              </td>
+            </tr>
+            <tr
+              className="hover:bg-blue-200 hover:shadow-xl active:shadow-none transition-all duration-100 bg-indigo-200"
+              onClick={[Function]}
+              role="row"
+            >
+              <td
+                className="m-2 py-2 px-4"
+                role="cell"
+              >
+                2
+              </td>
+              <td
+                className="m-2 py-2 px-4"
+                role="cell"
+              >
+                Arcade Farm
+              </td>
+              <td
+                className="m-2 py-2 px-4"
+                role="cell"
+              >
+                6
+              </td>
+              <td
+                className="m-2 py-2 px-4"
+                role="cell"
+              >
+                3.2589
+              </td>
+            </tr>
+            <tr
+              className="hover:bg-blue-200 hover:shadow-xl active:shadow-none transition-all duration-100"
+              onClick={[Function]}
+              role="row"
+            >
+              <td
+                className="m-2 py-2 px-4"
+                role="cell"
+              >
+                3
+              </td>
+              <td
+                className="m-2 py-2 px-4"
+                role="cell"
+              >
+                The Talking Farms
+              </td>
+              <td
+                className="m-2 py-2 px-4"
+                role="cell"
+              >
+                8
+              </td>
+              <td
+                className="m-2 py-2 px-4"
+                role="cell"
+              >
+                4.9628
+              </td>
+            </tr>
+            <tr
+              className="hover:bg-blue-200 hover:shadow-xl active:shadow-none transition-all duration-100 bg-indigo-200"
+              onClick={[Function]}
+              role="row"
+            >
+              <td
+                className="m-2 py-2 px-4"
+                role="cell"
+              >
+                4
+              </td>
+              <td
+                className="m-2 py-2 px-4"
+                role="cell"
+              >
+                Total Eclipse of the Solar Farm
+              </td>
+              <td
+                className="m-2 py-2 px-4"
+                role="cell"
+              >
+                9
+              </td>
+              <td
+                className="m-2 py-2 px-4"
+                role="cell"
+              >
+                4.6806
+              </td>
+            </tr>
+            <tr
+              className="hover:bg-blue-200 hover:shadow-xl active:shadow-none transition-all duration-100"
+              onClick={[Function]}
+              role="row"
+            >
+              <td
+                className="m-2 py-2 px-4"
+                role="cell"
+              >
+                5
+              </td>
+              <td
+                className="m-2 py-2 px-4"
+                role="cell"
+              >
+                Great Farms of Fire
+              </td>
+              <td
+                className="m-2 py-2 px-4"
+                role="cell"
+              >
+                9
+              </td>
+              <td
+                className="m-2 py-2 px-4"
+                role="cell"
+              >
+                4.5865
+              </td>
+            </tr>
+            <tr
+              className="hover:bg-blue-200 hover:shadow-xl active:shadow-none transition-all duration-100 bg-indigo-200"
+              onClick={[Function]}
+              role="row"
+            >
+              <td
+                className="m-2 py-2 px-4"
+                role="cell"
+              >
+                6
+              </td>
+              <td
+                className="m-2 py-2 px-4"
+                role="cell"
+              >
+                The Farm and the Hound
+              </td>
+              <td
+                className="m-2 py-2 px-4"
+                role="cell"
+              >
+                7
+              </td>
+              <td
+                className="m-2 py-2 px-4"
+                role="cell"
+              >
+                4.736
+              </td>
+            </tr>
+            <tr
+              className="hover:bg-blue-200 hover:shadow-xl active:shadow-none transition-all duration-100"
+              onClick={[Function]}
+              role="row"
+            >
+              <td
+                className="m-2 py-2 px-4"
+                role="cell"
+              >
+                7
+              </td>
+              <td
+                className="m-2 py-2 px-4"
+                role="cell"
+              >
+                Farm Inc.
+              </td>
+              <td
+                className="m-2 py-2 px-4"
+                role="cell"
+              >
+                14
+              </td>
+              <td
+                className="m-2 py-2 px-4"
+                role="cell"
+              >
+                7.69
+              </td>
+            </tr>
+            <tr
+              className="hover:bg-blue-200 hover:shadow-xl active:shadow-none transition-all duration-100 bg-indigo-200"
+              onClick={[Function]}
+              role="row"
+            >
+              <td
+                className="m-2 py-2 px-4"
+                role="cell"
+              >
+                8
+              </td>
+              <td
+                className="m-2 py-2 px-4"
+                role="cell"
+              >
+                Bruce Farmstein & the E Street Farm
+              </td>
+              <td
+                className="m-2 py-2 px-4"
+                role="cell"
+              >
+                9
+              </td>
+              <td
+                className="m-2 py-2 px-4"
+                role="cell"
+              >
+                5.0933
+              </td>
+            </tr>
+            <tr
+              className="hover:bg-blue-200 hover:shadow-xl active:shadow-none transition-all duration-100"
+              onClick={[Function]}
+              role="row"
+            >
+              <td
+                className="m-2 py-2 px-4"
+                role="cell"
+              >
+                9
+              </td>
+              <td
+                className="m-2 py-2 px-4"
+                role="cell"
+              >
+                Farmlórien
+              </td>
+              <td
+                className="m-2 py-2 px-4"
+                role="cell"
+              >
+                7
+              </td>
+              <td
+                className="m-2 py-2 px-4"
+                role="cell"
+              >
+                4.3104
+              </td>
+            </tr>
+            <tr
+              className="hover:bg-blue-200 hover:shadow-xl active:shadow-none transition-all duration-100 bg-indigo-200"
+              onClick={[Function]}
+              role="row"
+            >
+              <td
+                className="m-2 py-2 px-4"
+                role="cell"
+              >
+                10
+              </td>
+              <td
+                className="m-2 py-2 px-4"
+                role="cell"
+              >
+                Another Solar Farm
+              </td>
+              <td
+                className="m-2 py-2 px-4"
+                role="cell"
+              >
+                4
+              </td>
+              <td
+                className="m-2 py-2 px-4"
+                role="cell"
+              >
+                3.326
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </main>
+  <footer
+    className="w-full h-16 border-t border-solid border-gray-200 flex justify-center items-center"
+  >
+    <span
+      className="text-pink-800"
+    >
+      Powered by Alecto
+    </span>
+  </footer>
+</div>
+`;

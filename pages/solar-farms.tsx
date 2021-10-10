@@ -1,5 +1,4 @@
 import Head from 'next/head';
-import { useRouter } from 'next/router';
 import { accounts } from './api/accounts';
 import { solarFarms } from './api/solar-farms';
 import { Account, SolarFarm } from '../types/';
@@ -7,6 +6,10 @@ import { Container } from '../components/Container';
 import { Table } from '../components/Table';
 import { useMemo } from 'react';
 import { useTable, useSortBy } from 'react-table';
+import {
+    getNumberOfAccounts,
+    getTotalCapacityFilled,
+} from '../utils/solar-farms';
 
 interface Props {
     accounts: Account[];
@@ -27,22 +30,13 @@ export default function SolarFarms({ accounts, solarFarms }: Props) {
             {
                 Header: 'Number of Accounts',
                 accessor: (solarFarm: SolarFarm) =>
-                    accounts.filter((a) => a.solar_farm_id === solarFarm.id)
-                        .length,
+                    getNumberOfAccounts(accounts, solarFarm.id),
                 id: 'accounts',
             },
             {
                 Header: 'Total Capacity Filled',
                 accessor: (solarFarm: SolarFarm) =>
-                    accounts
-                        .filter((a) => a.solar_farm_id === solarFarm.id)
-                        .reduce(
-                            (prev, account) =>
-                                !!account.capacity_share
-                                    ? prev + account.capacity_share
-                                    : prev,
-                            0,
-                        ),
+                    getTotalCapacityFilled(accounts, solarFarm.id).toString(),
                 id: 'capacity',
             },
         ],

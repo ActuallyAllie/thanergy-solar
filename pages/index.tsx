@@ -30,7 +30,8 @@ export default function Home({ customers }: Props) {
             },
             {
                 Header: 'Active',
-                accessor: 'active',
+                accessor: (row: Customer) => row.active ? 'true' : 'false',
+                id: 'active',
             },
             {
                 Header: 'Account Manager',
@@ -52,7 +53,6 @@ export default function Home({ customers }: Props) {
     const router = useRouter();
 
     const onRowClick = useCallback((row: Customer) => {
-        console.log(row);
         router.push({
             pathname: '/customers/[id]',
             query: { id: row.id }
