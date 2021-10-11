@@ -5,8 +5,8 @@
 import React from 'react';
 import { render, screen } from '@testing-library/react';
 import renderer from 'react-test-renderer';
-import Home from './index';
-import { customers } from './api/customers';
+import Home from '../pages/index';
+import { customers } from '../pages/api/customers';
 
 describe('Customer Index', () => {
     it('renders a heading', () => {

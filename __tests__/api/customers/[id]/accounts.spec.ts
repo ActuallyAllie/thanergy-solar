@@ -1,4 +1,4 @@
-import { getAccountsByCustomerId } from './accounts';
+import { getAccountsByCustomerId } from '../../../../pages/api/customers/[id]/accounts';
 
 describe('customers/[id]/accounts api', () => {
     it('returns the correct accounts', () => {

@@ -5,16 +5,16 @@
 import React from 'react';
 import { render, screen } from '@testing-library/react';
 import renderer from 'react-test-renderer';
-import CustomerView from './[id]';
-import { accounts } from '../api/accounts';
-import { customers } from '../api/customers';
+import SolarFarms from '../pages/solar-farms';
+import { accounts } from '../pages/api/accounts';
+import { solarFarms } from '../pages/api/solar-farms';
 
-describe('Customer View', () => {
-    it('renders an accounts heading', () => {
-        render(<CustomerView accounts={accounts} customer={customers[0]} />);
+describe('Solar Farms Index', () => {
+    it('renders a heading', () => {
+        render(<SolarFarms accounts={accounts} solarFarms={solarFarms} />);
 
         const heading = screen.getByRole('heading', {
-            name: /Accounts/i,
+            name: /Solar Farms/i,
         });
 
         expect(heading).toBeInTheDocument();
@@ -22,9 +22,7 @@ describe('Customer View', () => {
 
     it('renders solar farms unchanged', () => {
         const tree = renderer
-            .create(
-                <CustomerView accounts={accounts} customer={customers[0]} />,
-            )
+            .create(<SolarFarms accounts={accounts} solarFarms={solarFarms} />)
             .toJSON();
         expect(tree).toMatchSnapshot();
     });
