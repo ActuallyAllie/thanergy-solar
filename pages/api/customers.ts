@@ -1,8 +1,11 @@
-import customers from '../../data/customers.json';
+import customersData from '../../data/customers.json';
 
-export {
-    customers
-};
+const customers = customersData.map((customer) => ({
+    ...customer,
+    active: !!customer.active,
+}));
+
+export { customers };
 
 export default function handler(req, res) {
     res.status(200).json(customers);
