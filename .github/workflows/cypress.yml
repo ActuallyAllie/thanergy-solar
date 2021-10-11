@@ -24,6 +24,6 @@ jobs:
     - name: Cypress run
       uses: cypress-io/github-action@v2
       with:
-        install-command: npm i -g npm && npm ci
+        install-command: npm run ci
         build: npm run build
         start: npm start
